@@ -28,7 +28,7 @@ public class Main {
 
         // Imprimir todos los contactos de la agenda.
         System.out.println("Todos los contactos: ");
-        for (Contacto c : agendaContactos.getContacts()) { //recorrido del bucle que llama los contactos
+        for (Persona c : agendaContactos.getContacts()) { //recorrido del bucle que llama los contactos
             System.out.println(c.getName() + " -> " + c.getPhones()); //imprime el nombre y el contacto de cada persona en la agenda
         }
 
@@ -42,7 +42,7 @@ public class Main {
         agendaContactos.modifyPhoneNumber("John Doe", "1234567890", "6666666666");
 
         System.out.println("\nDespués de añadir, eliminar y modificar contactos: ");
-        for (Contacto c : agendaContactos.getContacts()) {
+        for (Persona c : agendaContactos.getContacts()) {
             System.out.println(c.getName() + " -> " + c.getPhones());
         }
     }

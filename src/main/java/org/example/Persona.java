@@ -9,7 +9,7 @@ import java.util.List;
  * @author Ginés Conesa Liza
  * @version 1.0 11/03/25
  */
-class Contacto {
+class Persona {
     /**
      * Nombre del contacto.
      */
@@ -26,7 +26,7 @@ class Contacto {
      * @param name  Nombre del contacto.
      * @param phone Número de teléfono inicial del contacto.
      */
-    public Contacto(String name, String phone) {
+    public Persona(String name, String phone) {
         this.name = name;
         this.phones = new ArrayList<>();
         this.phones.add(phone);
