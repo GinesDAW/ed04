@@ -15,7 +15,7 @@ import java.util.List;
  * @version 1.0 11/03/25
  */
 
-public class Agenda {
+public class Agenda implements IAgenda {
     /**
      * Lista de contactos que están almacenados en la acenda.
       */
